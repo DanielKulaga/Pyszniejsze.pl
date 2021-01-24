@@ -1,0 +1,134 @@
+body
+{
+	background-color: #F0EBE2;
+
+}
+/* <!-- nagłówek, główne logo, koszyk z liczeniem produktow --> */
+#restaurants{
+	margin-top: 3%;
+}
+.logo-img{
+	margin-left: 30%;
+	width: 25%;
+}
+.subtitle{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: #73292E;
+	margin-left: 32%;
+	padding-top: 2%;
+}
+
+.shopping-basket{
+	width: 90%;
+	margin: 20%;
+}
+.back-button{
+	width: 30%;
+	margin-top: 20%;
+
+}
+
+.product-number{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 1.6rem;
+	color: #73292E;
+}
+
+/* opis restauracji */
+.restaurant-logo{
+	width: 110%;
+	border: 4px solid #73292E;
+	padding: 30px;
+
+}
+.solid{
+	color: #73292E;
+
+}
+
+#restaurant-description{
+  margin-top: 10%;
+}
+.restaurant-container{
+  margin: 5% 5%;
+}
+
+.restaurant-info{
+  padding-left: 4%;
+}
+
+.restaurant-info h1{
+  font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: #73292E;
+}
+.restaurant-info h2{
+  font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #73292E;
+}
+.restaurant-info h3{
+  font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.5rem;
+	color: #73292E;
+}
+/* menu restauracji */
+.menu-elements{
+  margin-top: 5%;
+}
+.menu-elements h2{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #73292E;
+}
+.menu-elements p{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+  color: #73292E;
+}
+
+.dish{
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+
+.add-icon{
+	width: 50%;
+}
+
+/* stopka */
+.footer{
+	padding: 7% 5%;
+	background-color: #CBC0AA;
+}
+.contact{
+	padding: 5% 10%;
+}
+.contact h2{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 2.2rem;
+	color: #73292E;
+}
+.contact h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.5rem;
+	color: #73292E;
+}
+.contact p{
+	margin-top: 5%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.2rem;
+	color: #73292E;
+}
+.contribution{
+  margin-top: 5%;
+  text-align: center;
+	color: #73292E;
+}

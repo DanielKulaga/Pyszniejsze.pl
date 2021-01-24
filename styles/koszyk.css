@@ -1,0 +1,145 @@
+body {
+    background-color: #F0EBE2 !important;
+
+}
+
+#restaurants {
+
+    margin-bottom: 3%;
+}
+
+.logo-img {
+    margin-left: 40%;
+    width: 25%;
+}
+
+.subtitle {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #73292E;
+    margin-left: 45%;
+    padding-top: 2%;
+}
+
+.shopping-basket {
+    width: 90%;
+    margin: 20%;
+}
+
+.product-number {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #73292E;
+}
+
+/* opis restauracji */
+.restaurant-logo {
+    width: 110%;
+    border: 4px solid #73292E;
+    padding: 30px;
+
+}
+
+.solid {
+    color: #73292E;
+
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.smallTitle {
+    padding-bottom: 30px;
+}
+
+/*----------------Koszyk----------------*/
+
+.products-container {
+    margin: 0 auto;
+
+}
+
+.products-container ion-icons {
+    font-size: 25px;
+    color: #73292E;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 40px;
+    float: right;
+}
+
+.btn {
+    background-color: #73292E !important;
+}
+
+.btn:hover {
+    background-color: #FFC9AC !important;
+    color: #73292E !important;
+}
+
+/* Footer */
+.footer {
+    padding: 7% 5%;
+    background-color: #CBC0AA;
+}
+
+.contact {
+    padding: 5% 10%;
+}
+
+.contact h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #73292E;
+}
+
+.contact h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5rem;
+    color: #73292E;
+}
+
+.contact p {
+    margin-top: 5%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2rem;
+    color: #73292E;
+}
+
+.contribution {
+    margin-top: 5%;
+    text-align: center;
+    color: #73292E;
+}
+.back-button{
+  width: 30%;
+  margin-top: 20%;
+}
+
+
+/* Style buttons */
+.btnDelete,
+.btnPlus,
+.btnMinus {
+    background-color: #F0EBE2 !important;
+    border: none;
+    color: #73292E;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btnDelete:hover,
+.btnPlus:hover,
+.btnMinus:hover {
+    color: white;
+}

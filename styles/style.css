@@ -1,0 +1,192 @@
+body {
+  background-color: #F0EBE2 !important
+}
+
+
+#container {
+  width: 1000px;
+  margi-left: auto;
+  margin-right: auto;
+}
+
+.fakeblock {
+  height: 200px;
+}
+
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 200px;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.order {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #73292E;
+  font: caption;
+  font-weight: bold;
+
+}
+
+.number {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+div.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: center;
+  width: 30%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+div.example button {
+  float: center;
+  width: 10%;
+  padding: 10px;
+  background: #73292E;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  /* Prevent double borders */
+  cursor: pointer;
+}
+
+div.example1 input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: center;
+  text-align: center;
+  width: 10%;
+  background: #f1f1f1;
+}
+
+div.example1 button {
+  float: center;
+  width: 5%;
+  padding: 10px;
+  background: #73292E;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #FFC9AC;
+
+}
+
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.modal-content {
+  background-color: #FFC9AC !important;
+  color: #73292E !important;
+}
+
+.cardForm {
+  margin-top: 7%;
+}
+
+.btn {
+  background-color: #73292E !important;
+  margin-bottom: 2px;
+
+
+}
+
+.col-md-5 {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 6%;
+}
+
+
+.btn:hover {
+  background-color: #FFC9AC !important;
+  color: #73292E !important;
+}
+
+/* .input {
+  mpadding-top: 7px;
+} */
+
+.fa {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: #fff;
+}
+
+
+/* FOOTER */
+.footer {
+  margin-top: 20%;
+  padding: 7% 5%;
+  background-color: #CBC0AA;
+}
+
+.contact {
+  padding: 5% 10%;
+}
+
+.contact h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #73292E;
+}
+
+.contact h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.5rem;
+  color: #73292E;
+}
+
+.contact p {
+  margin-top: 5%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.2rem;
+  color: #73292E;
+}
+
+.contribution {
+  margin-top: 5%;
+  text-align: center;
+  color: #73292E;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pyszniejsze</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel='stylesheet' href="styles/restarnatStyles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- nagłówek, główne logo, koszyk z liczeniem produktow -->
+  <section id="restaurants">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-2">
+          <a href="searchResult.html">
+        <img class="back-button" src="img/back.png" alt="back-img">
+          </a>
+        </div>
+        <div class="col-9">
+            <a href="index.html">
+          <img class="logo-img" src="img/logoPyszniejsze.png" alt="logo-img">
+            </a>
+          <h3 class="subtitle"> Pyszniej, szybciej, wygodniej...</h3>
+        </div>
+        <div class="col-1 basket">
+        <a href="koszyk.html" onclick="getDeliveryCost(); getMinOrder();"><img class="shopping-basket" src="img/shopping-basket.png" alt="basket-img"></a>
+          <span class="product-number">0</span>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+<!-- opis, logo restauracji -->
+  <section id="restaurant-description">
+    <hr class="solid">
+    <div class="container restaurant-container">
+      <div class="row">
+        <div class="col-2">
+          <img class="restaurant-logo" src="img/bowl.png" alt="logo-img">
+        </div>
+        <div class="col-10 restaurant-info">
+          <h1>Bangkok</h1>
+          <h2 id="deliveryCost">Dostawa 3 zł</h2>
+          <h2 id="minOrder">Minimalne Zamówienie 25zł</h2>
+          <h2>Opinia klientów 4.4/5</h2>
+          <h3>Kraków ul. Kobierzyńska 5</h3>
+          <h3>tel. 555 245 232</h3>
+        </div>
+      </div>
+    </div>
+    <hr class="solid">
+  </section>
+
+
+<!-- menu restauracji -->
+  <section id="menu">
+    <div class="container menu-elements">
+      <div class="row dish">
+        <div class="col-9 dish-info">
+          <h2 class="dish-name">Azjatycka zupa jajeczna</h2>
+          <p>Jajko roztrzepane, dymka, mąką kukurydziana</p>
+        </div>
+        <div class="col-1 price">
+          <h2 class= "price-h">25</h2>
+        </div>
+        <div class="col-1 price">
+          <h2>zł</h2>
+        </div>
+        <div class="col-1 add-button">
+          <a class="add-cart cart2" href="#"><img class="add-icon" src="img/plus.png"></a>
+        </div>
+      </div>
+
+
+      <div class="row dish">
+        <div class="col-9 dish-info">
+          <h2 class="dish-name">Smażony ryż z chili i jajkiem</h2>
+          <p>Ryż basmati, zielony groszek, jajka, dymka, kapusta pekińska</p>
+        </div>
+        <div class="col-1 price">
+          <h2 class="price-h">30</h2>
+        </div>
+        <div class="col-1 price">
+          <h2>zł</h2>
+        </div>
+        <div class="col-1 add-button">
+<a class="add-cart cart2" href="#"><img class="add-icon" src="img/plus.png"></a>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="row dish">
+        <div class="col-9 dish-info">
+          <h2 class="dish-name">Azjatycki gulasz wieprzowy</h2>
+          <p>Szynka wieprzowa, papryka żółta, ziarna sezamu, cebula czerwona, czosnek </p>
+        </div>
+        <div class="col-1 price">
+          <h2 class= "price-h">35</h2>
+        </div>
+        <div class="col-1 price">
+          <h2>zł</h2>
+        </div>
+        <div class="col-1 add-button">
+  <a class="add-cart cart2" href="#"><img class="add-icon" src="img/plus.png"></a>
+        </div>
+      </div>
+
+
+
+
+      <div class="row dish">
+        <div class="col-9 dish-info">
+          <h2 class="dish-name">Stir-fry z wołowiną i szparagami</h2>
+          <p>Wołowina, szparagi, czosnek, szczypior, sezam</p>
+        </div>
+        <div class="col-1 price">
+          <h2 class= "price-h">28</h2>
+        </div>
+        <div class="col-1 price">
+          <h2>zł</h2>
+        </div>
+        <div class="col-1 add-button">
+<a class="add-cart cart2" href="#"><img class="add-icon" src="img/plus.png"></a>
+        </div>
+      </div>
+
+
+
+
+      <div class="row dish">
+        <div class="col-9 dish-info">
+          <h2 class="dish-name">Koperty z warzywami i rybą</h2>
+          <p>Ryba biała, cukinia, ogórek, marchew, czosnek</p>
+        </div>
+        <div class="col-1 price">
+          <h2 class= "price-h">35</h2>
+        </div>
+        <div class="col-1 price">
+          <h2>zł</h2>
+        </div>
+        <div class="col-1 add-button">
+<a class="add-cart cart2" href="#"><img class="add-icon" src="img/plus.png"></a>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<!-- stopka -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="row">
+        <div class="col-6 contact">
+          <h2>Potrzebujesz pomocy?</h2>
+          <h3>Nasza infolinia jest dla ciebie czynna w godzinach 8:00 - 16:00</h3>
+          <p>+48 600 732 762</p>
+        </div>
+        <div class="col-6 contact">
+          <h2>Jesteś restauratorem?</h2>
+          <h3>Chętnie nawiążemy z Tobą współpracę</h3>
+          <p>Napisz do nas na pyszniejsze@mniammniam.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contribution">
+      <hr class="solid">
+      <p>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+      </p>
+    </div>
+  </footer>
+
+<script src="main.js"></script>
+</body>
+
+</html>

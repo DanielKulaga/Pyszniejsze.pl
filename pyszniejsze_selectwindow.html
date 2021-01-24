@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Pyszniejsze.pl</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class='logo'>
+    <a href="index.html">
+        <img class="back-button" src="img/back.png" alt="back-img">
+        </a>
+        <a href="index.html">
+          <img class="logo-img" src="img/logoPyszniejsze.png" alt="logo-img">
+        </a>
+</div>
+
+<div class="all">
+    <div class="container">
+        <h1 class="czegoszukasz">Czego konkretnie szukasz?</h1>
+        <div class="checkbox column">
+            <h1>Dostawa</h1>
+
+
+            <form class="group_options_container" name="myForm">
+            <div class="group">
+                <input type="radio" name="dostawa" id="dostawa_brak"  value="none"/>
+                <label for="dostawa_brak">Brak / Dowolna kwota</label>
+            </div>
+
+            <div class="group">
+                <input type="radio" name="dostawa" id="dostawa_darmowa"  value="0"/>
+                <label for="dostawa_darmowa">Darmowa</label>
+            </div>
+
+            <div class="group">
+                <input type="radio" name="dostawa" id="dostawa_5-10" value="5"/>
+                <label for="dostawa_5-10">do 5 złotych</label>
+            </div>
+
+            <div class="group">
+                <input type="radio" name="dostawa" id="dostawa_10-20" value="10"/>
+                <label for="dostawa_10-20">do 10 złotych</label>
+            </div>
+        </form>
+        </div>
+
+
+        <form name="restTypeForm" class="checkbox column" >
+        <h1>Kuchnia</h1>
+
+        <div class="group_options_container" id="kuchnie">
+          <div class="group">
+              <input type="checkbox" id="all" value="wszystkie" name="wszystkie"/>
+              <label for="all">Wszystkie restauracje</label>
+          </div>
+            <div class="group">
+                <input type="checkbox" id="xd" value="wloska" name="wloska"/>
+                <label for="xd">włoska</label>
+            </div>
+
+            <div class="group">
+                <input type="checkbox" id="figma" value="domowa" name="domowa"/>
+                <label for="figma">kuchnia domowa</label>
+            </div>
+
+            <div class="group">
+                <input type="checkbox" id="sketch" value="azjatycka" name="azjatycka"/>
+                <label for="sketch">azjatycka</label>
+            </div>
+
+            <div class="group">
+                <input type="checkbox" id="anglia" value="wegetarianska" name="wegetarianska"/>
+                <label for="anglia">wegetariańska</label>
+            </div>
+
+            <div class="group">
+                <input type="checkbox" id="francja" value="fast-food" name="fast-food"/>
+                <label for="francja">fast-food</label>
+            </div>
+            <div class="group">
+                <input type="checkbox" id="bukareszt" value="kebab" name="kebab"/>
+                <label for="bukareszt">kebab</label>
+            </div>
+            <div class="group">
+                <input type="checkbox" id="costam" value="polska" name="polska"/>
+                <label for="costam">kuchnia polska</label>
+            </div>
+        </div>
+        </form>
+
+        <div class="checkbox column">
+            <h1>Sortuj według</h1>
+
+            <form name="myForm2" class="group_options_container">
+            <div class="group">
+                <input type="radio" id="sortuj_brak" name="sortuj" value="none"/>
+                <label for="sortuj_brak">Brak</label>
+            </div>
+
+            <div class="group">
+                <input type="radio" id="sortuj_opinie" name="sortuj" value="opinion"/>
+                <label for="sortuj_opinie">Opinii klientów</label>
+            </div>
+
+            <div class="group">
+                <input type="radio" id="sortuj_koszt" name="sortuj" value="cost"/>
+                <label for="sortuj_koszt">Koszt dostawy</label>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="buttons">
+     <button type="button" class="button button-sort" onclick="location.href = 'searchResult.html';">Wyświetl wyniki</button>
+    </div>
+</div>
+
+<script src="searchFilters.js"></script>
+    
+</body>
+</html>

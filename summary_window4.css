@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #F0EBE2;
+}
+
+.logo {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.container1 {
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container1 .hello {
+    text-align: center;
+}
+
+.container1 .hello_text {
+    text-align: center;
+}
+
+.container1 .status_headline {
+    text-align: center;
+    color: #73292E;
+}
+
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 15px;
+}
+
+.container1 .stage_visual {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+
+
+}
+
+.container1 .stage_visual .stage {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+    float: left;
+    text-align: center;
+}
+
+#stage4 {
+    border-color: #73292E;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+
+.container1 .stage_visual .arr {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+i {
+    color: #73292E;
+    width: 100%;
+    height: auto;
+}
+
+.container1 .stage_visual img {
+    width: 100%;
+    height: auto;
+}
+
+.container1 .sum_order {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-top: 20px;
+    padding-left: 45px;
+    font-weight: 600;
+}
+
+.container1 .delivery_info {
+    width: 40%;
+    float: right;
+    padding-right: 45px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*.solid {
+    color: #73292E;
+
+}*/
+.col-5 {
+    float: left;
+    margin-right: 60px;
+
+}
+
+.col-2 {
+    float: left;
+    margin-right: 55px;
+
+}
+
+.col-3 {
+    float: left;
+    margin-right: 50px;
+
+}
+
+.item_info {
+    float: right;
+}
+
+.basketTotalContainer {
+    /*float: right;*/
+    width: 100%;
+}
+
+.row {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.delivery {
+    margin-bottom: 10px;
+    margin-top: 8px;
+
+}
+
+.describe2 {
+    display: inline-block;
+    margin-left: 295px;
+}
+
+.describe3 {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.describe4 {
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.button-sort {
+    background: #73292E;
+    color: #ffffff;
+}
+
+.button-sort:hover {
+    background-color: #FFC9AC !important;
+    color: #73292E !important;
+}
+
+.buttons {
+    margin-top: 30px;
+    float: right;
+    margin-right: 60px;
+
+}
+
+.button {
+    padding: 12px 42px;
+    font-size: 18px;
+    border-radius: 8px;
+    /*border-bottom: 4px solid black;
+    border-right: 4px solid black;*/
+}
+
+/* Stopka*/
+.footer {
+    padding: 30px;
+    background-color: #CBC0AA;
+    margin-top: 50px;
+}
+
+.contact {
+    padding: 0% 0%;
+}
+
+#contact1 {
+    width: 50%;
+    margin-left: 140px;
+    margin-right: auto;
+    float: left;
+    /*padding-left: 40px;*/
+}
+
+#contact2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+.contact h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #73292E;
+}
+
+.contact h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.0rem;
+    color: #73292E;
+}
+
+.contact p {
+    margin-top: 0.5%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2rem;
+    color: #73292E;
+}
+
+.contribution {
+    margin-top: 5%;
+    text-align: center;
+    color: #73292E;
+}

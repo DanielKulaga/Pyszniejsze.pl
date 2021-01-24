@@ -1,0 +1,124 @@
+/* RESTAURANT RESULTS FILE  */
+
+
+body
+{
+	background-color: #F0EBE2;
+
+}
+
+#restaurants{
+	margin-top: 3%;
+}
+a{
+	text-decoration: none;
+	color: #73292E;
+
+}
+.logo-img{
+	margin-left: 30%;
+	width: 25%;
+}
+.subtitle{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: #73292E;
+	margin-left: 35%;
+	padding-top: 2%;
+}
+
+.back-button{
+	width: 30%;
+	margin-top: 20%;
+
+}
+
+
+
+/* restaurants */
+.restaurant-img{
+	width: 90%;
+	border: 4px solid #73292E;
+	padding: 30px;
+
+}
+.restaurant-record{
+	margin: 5% 5%;
+}
+.details{
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.restaurant-records-container{
+	margin-top: 10%;
+}
+
+.restaurant-name h1{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	color: #73292E;
+}
+.restaurant-name h4{
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #73292E;
+}
+
+.restaurant-name p{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.2rem;
+	color: #73292E;
+	padding-top: 5%;
+	padding-right: 5%;
+}
+.details h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #73292E;
+}
+
+.solid{
+	color: #73292E;
+}
+
+.not-found h1{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	color: #73292E;
+}
+
+/* Footer */
+.footer{
+	padding: 7% 5%;
+	background-color: #CBC0AA;
+}
+.contact{
+	padding: 5% 10%;
+}
+.contact h2{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 2.2rem;
+	color: #73292E;
+}
+.contact h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.5rem;
+	color: #73292E;
+}
+.contact p{
+	margin-top: 5%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.2rem;
+	color: #73292E;
+}
+.contribution{
+  margin-top: 5%;
+  text-align: center;
+	color: #73292E;
+}
+a:hover {
+  color: orange;
+}
